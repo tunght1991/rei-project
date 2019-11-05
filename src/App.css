@@ -1,0 +1,51 @@
+.App {
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+#left-panel {
+  z-index: 999;
+  position: fixed;
+  width: 174px;
+  top: 118px;
+  left: 2px;
+  border-radius: 12px;
+  background-color: #4c7cf3;
+}
+#left-panel li {
+  padding: 10px 20px;
+}
+#left-panel a {
+  font-family: Propins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+}
+#editor {
+  background-color: #f5f4f9;
+}
+
+.editor-wrapper {
+  border: solid 1px #ffffff;
+  background: #eee;
+}
