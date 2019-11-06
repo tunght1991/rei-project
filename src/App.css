@@ -49,3 +49,11 @@
   border: solid 1px #ffffff;
   background: #eee;
 }
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
